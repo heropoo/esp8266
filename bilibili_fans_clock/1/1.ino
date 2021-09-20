@@ -42,7 +42,7 @@ U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE);
 //---------------修改此处""内的信息---------------------------------------------
 const char ssid[] = "test";                       //WiFi名
 const char pass[] = "123456";                   //WiFi密码
-String biliuid = "395879990";         //bilibili UID
+const String biliuid = "395879990";         //bilibili UID
 //-----------------------------------------------------------------------------
 
 static const char ntpServerName[] = "ntp1.aliyun.com"; //NTP服务器，阿里云
